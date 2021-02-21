@@ -1,0 +1,45 @@
+body{
+
+    padding: 70px 70px 70px 70px;
+    background-color: #f1f1f1;
+}
+
+.items {
+    margin-right: 50%;
+    padding-left: 50%;
+    width: 600px;
+}
+
+header{
+    padding:10px;
+    text-align:start;
+    float:inherit;
+    position:relative;
+    
+}
+
+.logo{
+    position:absolute;
+    left:50px;
+    top:20px;
+    width:50px;
+    
+}
+.PRINT{
+    float: right;
+    padding-right:40%;
+
+}
+header h5{
+    padding-right: 45%;
+    margin-right: 20%;
+}
+
+
+.footer{
+    padding-top: 30px;
+}
+
+p{
+    text-align: justify;
+}
