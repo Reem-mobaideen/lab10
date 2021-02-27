@@ -1,7 +1,69 @@
-body{
+* {
+    box-sizing: border-box;
+}
 
-    padding: 70px 70px 70px 70px;
-    background-color: #f1f1f1;
+.container {
+    margin: 0 auto;
+    width: 75%;
+}
+.nav-bar {
+    position: relative;
+    margin-top:30px;
+    
+}
+
+.logo {
+    height: 30px;
+    position: absolute;
+    margin-top: 5px;
+}
+
+.delicious {
+    font-family: 'Yellowtail', cursive;
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 30px;
+    position:static;
+}
+.blog {
+    color: rgb(175, 172, 172);
+    font-family: 'Pathway Gothic One';
+    font-size: smaller;
+    letter-spacing: 5pxpx;
+    margin-left: 30px;
+    margin-top: 50px;
+    position: static;
+}
+
+.icons {
+    float: right;
+}
+.clearfix {
+    overflow: auto;
+}
+
+h2 {
+    margin: 2 0 4em 0;
+    padding: 8px;
+}
+.sub-head {
+    background-image: linear-gradient(45deg, #ffffff 28.57%, #e0e0e0 28.57%, #e0e0e0 50%, #ffffff 50%, #ffffff 78.57%, #e0e0e0 78.57%, #e0e0e0 100%);
+    background-size: 10px 10px;
+
+  }
+  .posted {
+    color: lightgray;
+    padding-top: 50px;
+    display: inline;
+    font-family: 'Pathway Gothic One', sans-serif;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+.print-icon {
+    float: right;
+    width: 20px;
+    padding-top: 10px;
+    margin-top: 20px;
 }
 
 .items {
@@ -10,36 +72,102 @@ body{
     width: 600px;
 }
 
-header{
-    padding:10px;
-    text-align:start;
-    float:inherit;
-    position:relative;
-    
+.list-background{
+    background-image: url("pic11.png");
+}
+.p {
+    color:white;
+    display: inherit;
+    font-family: patrick hand, cursive;
+    line-height: 30px;
+    margin-top: 10px;
+    width: 100%;
+}
+.col {
+    display: inline-block;
+    width: 40%;
 }
 
-.logo{
-    position:absolute;
-    left:50px;
-    top:20px;
-    width:50px;
-    
+.column-one {
+    margin-left: 13%;
 }
-.PRINT{
+
+.about-vanessa {
+    color: gray;
+    display: inline-block;
+    font-family: 'Crimson Text', serif;
+    width: 75%;
+}
+
+.vanessa-pic {
+    position: absolute;
+    width: 50px;
+}
+
+.vanessa-name {
+    font-size: larger;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-left: 15%;
+}
+
+.vanessa-bio {
+    font-size: large;
+    line-height: 20px;
+    margin-left: 15%;
+    width: 85%;
+}
+
+.share-button {
+    display: inline;
+
+}
+
+.share {
+    color: white;
+    background-color: #ca8767;
     float: right;
-    padding-right:40%;
-
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 20px;
+    padding: 12px;
+    text-transform: uppercase;
+    width:fit-content;
 }
-header h5{
-    padding-right: 45%;
-    margin-right: 20%;
+.line-footer {
+    color: gray;
+    font-family: 'Crimson Text', serif;
+    line-height: 30px;
+    margin-top: 60px;
+    text-align: center;
+}
+.footer-text{ color: gray;
+    font-family: 'Crimson Text', serif;
+    margin-top: 70px;
+    text-align: center;
 }
 
 
-.footer{
-    padding-top: 30px;
+.small-logo {
+    border: 2px solid white;
+    display: inline-block;
+    width: 40px;
+    position: static;
+    
 }
 
-p{
-    text-align: justify;
+.footer2 {
+    background-color: gray;
+    width: 47%;
+    display: inline-block;
+    margin-bottom: 15px;
+  }
+  h4 {
+    margin:20px 0px 20px 0px;
+    padding: 10px;
 }
+
+.published {
+    margin-bottom: 50px;
+}
+
+ 
